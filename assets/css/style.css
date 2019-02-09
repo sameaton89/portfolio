@@ -74,3 +74,24 @@ h3 a {
 h3 a:hover {
     color: black;
 }
+
+@media only screen and (max-width: 1200px) {
+
+#nav {
+    font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1101px) {
+
+    #nav {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #nav {
+        font-size: 40px;
+    }
+}
